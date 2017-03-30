@@ -1,0 +1,187 @@
+/*===============FONTS=================*/
+
+@import url('https://fonts.googleapis.com/css?family=Lobster|Raleway:300,400,700');
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+/*===========UNIVERSALS================*/
+
+.lobster-text {
+  font-family: 'Lobster', cursive;
+}
+
+.raleway-text {
+  font-family: 'Raleway', sans-serif;
+}
+
+.orange-text {
+  color: #F8512F;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.red {
+  color: #ff0000;
+}
+/*===============HEADER=================*/
+
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+  }
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #F8512F;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+/*=============CAROUSEL=================*/
+
+.item {
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+#wood-background {
+  background-image: url('../img/wood-2.jpg');
+}
+
+#main-logo {
+  width: 300px;
+  transform: translate(0, 50%);
+}
+
+#seating-background {
+  background-image: url('../img/restaurant-2.jpg');
+}
+
+#farm-background {
+  background-image: url('../img/farm-2.jpg');
+}
+
+/*===============OUR STORY====================*/
+
+.year-text {
+  font-family: 'Playfair Display', serif;
+  position: absolute;
+  font-size: 200px;
+  z-index: -1;
+  color: rgba(150, 150, 150, .3);
+}
+
+#our-story-heading {
+  font-size: 75px;
+  text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+/*==================FRESNO BEE===============*/
+
+#review {
+  background-image: url('../img/food_review.jpg');
+  margin-top: 200px;
+}
+
+.review-background {
+  background-color: rgba(0, 0, 0, .5);
+  min-height: 200px;
+  border-radius: 5px;
+  margin-top: 10%;
+}
+
+#review h1 {
+  font-size: 5em;
+  text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+#review p {
+  color: #fff;
+  font-size: 22px;
+}
+
+/*===============MENU SECTION==============*/
+
+#menu {
+  background-image: url('../img/black_linen.png');
+  min-height: 800px;
+}
+
+#menu h1 {
+  font-size: 6em;
+}
+
+.menu-item {
+  background-color: #fff;
+  padding: 20px 12px;
+}
+
+#menu img {
+  width: 100%;
+}
+
+.nav>li>a:focus, .nav>li>a:hover, .nav-tabs>li>a:hover {
+  background-color: transparent;
+  border-color: #F8512F;
+  color: #F8512F;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  color: #F8512F;
+}
+
+/*===========CONTACT SECTION===========*/
+
+.contact-offset {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.input-height {
+  height: 20px;
+}
+
+#contact {
+  height: 600px;
+  background-color: #F8512F;
+}
+
+#contact h1 {
+  font-size: 40px;
+}
+
+#contact-wrapper {
+  padding: 30px;
+}
+
+.orange-wrapper {
+  background-color: #FF6633;
+  padding: 10px;
+  min-height: 300px;
+}
+
+#map-wrapper {
+  margin-left: 200px;
+}
+
+address>p {
+  font-size: 10px;
+}
+
+#map {
+  height: 150px;
+}
